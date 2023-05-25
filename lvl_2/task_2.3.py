@@ -7,5 +7,33 @@
 # switch_it_up(10000) -> None
 # Использовать условный оператор if-elif-else нельзя!
 
+# Моё решение:
 def switch_it_up(number):
-    pass
+    match number:
+        case 0:
+            print('Null')
+        case 1:
+            print('One')
+        case 2:
+            print('Two')
+        case 3:
+            print('Three')
+        case 4:
+            print('Four')
+        case 5:
+            print('Five')
+        case 6:
+            print('Six')
+        case 7:
+            print('Seven')
+        case 8:
+            print('Eight')
+        case 9:
+            print('Nine')
+        case _:
+            print('None')
+
+
+
+
+

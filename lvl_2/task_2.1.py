@@ -10,6 +10,8 @@
 # * [5]                             -> min = 5, max = 5
 # функции sorted, max и min использовать нельзя!
 
+
+# Моё решение:
 def minimum(arr):
     temp = arr[0]
     for a in arr:
