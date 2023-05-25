@@ -11,7 +11,16 @@
 # функции sorted, max и min использовать нельзя!
 
 def minimum(arr):
-    pass
+    temp = arr[0]
+    for a in arr:
+        if a < temp:
+            temp = a
+    return temp
 
 def maximum(arr):
-    pass
+    temp = arr[0]
+    for a in arr:
+        if a > temp:
+            temp = a
+
+
